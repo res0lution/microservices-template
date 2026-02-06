@@ -1,0 +1,2 @@
+CREATE DATABASE teacinema_record_auth;
+CREATE DATABASE teacinema_record_users;

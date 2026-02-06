@@ -1,0 +1,23 @@
+{
+	"name": "@teacinema/core",
+	"version": "1.0.3",
+	"description": "Core utilities and shared setup",
+	"type": "module",
+	"publishConfig": {
+		"access": "public"
+	},
+	"license": "ISC",
+	"author": {
+		"name": "Vadim",
+		"email": "admin@teacoder.ru"
+	},
+	"peerDependencies": {
+		"prettier": "^3.0.0"
+	},
+	"dependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^5.2.2"
+	},
+	"exports": {
+		"./prettier": "./src/prettier.config.mjs"
+	}
+}
