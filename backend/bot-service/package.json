@@ -1,0 +1,32 @@
+{
+	"name": "bot-service",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/main.js",
+	"scripts": {
+		"start:dev": "nodemon",
+		"build": "tsc -p tsconfig.json",
+		"start": "node dist/main.js",
+		"format": "prettier --write \"src/**/*.ts\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"devDependencies": {
+		"@teacinema/core": "^1.0.3",
+		"@types/node": "^24.10.1",
+		"nodemon": "^3.1.11",
+		"prettier": "^3.7.4",
+		"ts-node": "^10.9.2",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@grpc/grpc-js": "^1.14.2",
+		"@grpc/proto-loader": "^0.8.0",
+		"@teacinema/contracts": "^1.0.8",
+		"dotenv": "^17.2.3",
+		"telegraf": "^4.16.3"
+	}
+}
